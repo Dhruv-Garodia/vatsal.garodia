@@ -55,7 +55,7 @@ $(document).ready(function() {
             if ($('html').hasClass('dark')) {
                 localStorage.setItem('theme', 'dark');
             } else {
-                localStorage.setItem('theme', 'light');
+                localStorage.setItem('theme', 'dark');
             }
         });
 
