@@ -1,7 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Base CSS Variables for Light Theme */
+:root {
+  --color-primary: #fcd34d; /* Dark Blue 800 */
+  --color-secondary: #4b5563; /* Gray 700 */
+  --color-accent: #fcd34d; /* Amber 400 */
+  --color-background: #f9fafb; /* Gray 50 */
+  --color-surface: #ffffff; /* White */
 
+  --color-on-primary: #ffffff; /* White */
+  --color-on-secondary: #ffffff; /* White */
+  --color-on-background: #1f2937; /* Gray 800 */
+  --color-on-surface: #1f2937; /* Gray 800 */
+
+  /* Lighter shades for text on surface/background for better contrast/readability */
+  --color-on-surface-light: #374151; /* Gray 700 */
+  --color-on-background-light: #374151; /* Gray 700 */
+}
 
 /* Dark Mode CSS Variables */
 .dark {
